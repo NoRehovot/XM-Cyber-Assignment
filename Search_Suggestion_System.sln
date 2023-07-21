@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Search_Suggestion_System", "Search_Suggestion_System\Search_Suggestion_System.njsproj", "{2B9961A0-A288-4ACF-8CAB-FC153326D637}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B9961A0-A288-4ACF-8CAB-FC153326D637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9961A0-A288-4ACF-8CAB-FC153326D637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9961A0-A288-4ACF-8CAB-FC153326D637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9961A0-A288-4ACF-8CAB-FC153326D637}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3448A322-F29F-41C7-8D43-0AE8C3593E73}
+	EndGlobalSection
+EndGlobal
