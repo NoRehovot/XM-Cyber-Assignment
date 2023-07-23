@@ -1,5 +1,5 @@
 // define the list of products from which the client chooses and the word client searched for
-const products: string[] = ["mobile", "mouse", "moneypot", "monitor", "mousepad"];
+const products: string[] = ["mobile", "mouse", "moneypot", "monitor", "mousepad", "amo", "mob", "am", "minecraft"];
 const searchWord: string = 'mouse';
 
 function SearchSuggestion(products: string[], searchWord: string) : string[][]{
@@ -13,8 +13,8 @@ function SearchSuggestion(products: string[], searchWord: string) : string[][]{
     // go over the length of searchWord
     for (let i = 1; i <= searchWord.length; i++) {
         searchByLetters = searchWord.slice(0, i);  // slice the search word to get searchByLetters (see definition)
-        resultProducts = products.filter(product => product.includes(searchByLetters));  // filter search results (only those that include searchByLetters)
-        resultProducts = resultProducts.slice(0, 3);  //  leave only first 3 elements
+        resultProducts = products.filter(product => product.slice(0, i) == searchByLetters);  // filter search results (only those that include searchByLetters)
+        resultProducts = resultProducts.slice(0, 3);  // leave only first 3 elements
 
         finalResult.push(resultProducts);  // add search results to finalResult
     }
